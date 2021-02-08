@@ -1,9 +1,9 @@
 
 from django.urls import path
 
-from message.views import test
+from message.views import post_data
 
 
 urlpatterns = [
-    path('test/', test),
+    path('post/', post_data),
 ]
