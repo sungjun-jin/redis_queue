@@ -8,4 +8,13 @@ class CustomException(Exception):
         return "Custom_Exception_Error_Message"
 
 
+class EnqueueException(Exception):
 
+    def __str__(self):
+        return "Redis_Enqueue_Exception"
+
+
+class DequeueException(Exception):
+
+    def __str__(self):
+        return "Redis_Dequeue_Exception"
